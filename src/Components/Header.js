@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../img/Vector.png"
 import back from "../img/background/Vector.svg"
 import "./Header.css"
-import 'boxicons'
+// import 'boxicons'
 
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
             <div className="header-inner">
                 <div className="navbar">
                     <div className="logo">
-                    <box-icon name='menu' color="#fff"></box-icon>
+                    {/* <box-icon name='menu' color="#fff"></box-icon> */}
                         <img src={logo} alt="" />
                     </div>
                     <div className="link">
