@@ -1,0 +1,138 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(../img/background/Vector.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #1E1E1E;
+}
+
+.head img{
+    position: absolute;
+    width: 750px;
+    height: 700px;
+    margin-left: -80px;
+    /* left: 700px; */
+    /* margin-left: 800px; */
+    margin-top: -100px;
+}
+
+.header-inner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.navbar{
+    padding-top: 50px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+}
+.logo img{
+    width: 43px;
+    height: 50px;
+    background: transparent;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.link{
+    /* list-style: none; */
+    width: 153px;
+    margin-left: 50px;
+    height:200px;
+    /* gap: 50px; */
+    /* display: ; */
+}
+.link ul{
+    list-style: none;
+}
+.link ul li a{
+    text-decoration: none;
+    font-family: Jost;
+font-size: 25px;
+font-weight: 500;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: center;
+color: #E3E7F280;
+}
+.link ul li a:hover{
+    /* text-decoration: underline; */
+    color: #E3E7F2;
+}
+.link .langue{
+    width: 80px;
+    height: 80px;
+
+}
+.langue ul{
+    display: flex;
+    gap: 15px;
+}
+
+.head{
+    width: 750px;
+    height: 700px;
+     /* background-color: aqua; */
+     margin-left: 430px;
+     margin-top: -50px;
+}
+.head h1{
+    color: #fff;
+    margin-top: 250px;
+    font-size: 80px;
+    margin-left: 200px;
+}
+.head .btn{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: -100px;
+    padding-top: 80px;
+    padding-right: 50px;
+    transition: 0.1s;
+}
+.btn:hover{
+    border-top-left-radius: 50%;
+    /* border-top-right-radius: 50%; */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.logo box-icon{
+    position: absolute;
+    margin-left: 1300px;
+    display: none;
+}
+.btn svg{
+    margin-top: -10000px;
+    margin-left: 100px;
+}
+@media(max-width: 768px){
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-color: #1E1E1E;
+    }
+    .header-inner{
+        width: 100%;
+        height: 100vh;
+        background-color: #1E1E1E;
+    }
+    .head{
+        width: 100%;
+        height: 100vh;
+        background-color: #1E1E1E;
+    }
+    .head img{
+        position: absolute;
+        width: 150%;
+        height: 12ga0vh;
+        margin: 0 auto;
+        margin-left: -200px;
+    }
+}
